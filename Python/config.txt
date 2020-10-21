@@ -1,0 +1,163 @@
+设置环境变量
+set PATH=%PATH%;C:\Users\Focus\AppData\Local\Programs\Python\Python36-32
+
+内置库
+
+        urllib
+
+        re
+
+    需要安装的库
+	
+	xlwt（excel写）
+	   
+	    pip3 install xlwt
+	
+	xlrd（excel读）
+	    
+            pip3 install xlrd
+		
+
+        requests
+
+            pip3 install requests
+
+        selenium
+
+            pip3 install  selenium
+
+        chromedriver
+
+            下载驱动，放在配置好的环境变量下
+
+            http://npm.taobao.org/mirrors/chromedriver/
+
+        phantomjs(无界面浏览器)
+
+            下载，并且配置环境变量
+
+            http://phantomjs.org/
+
+        lxml
+
+            pip3 install lxml
+
+            可能下载失败
+
+            用下面的方式安装
+
+            https://pypi.python.org/pypi/lxml
+
+            
+
+            
+
+            首先安装
+
+            pip3 install wheel
+
+            然后载pip3 install 下载的文件路径和名字
+
+        beautifulsoup4（依赖lxml）
+
+            pip3 install beautifulsoup4
+
+        pyquery
+
+            pip3 install pyquery
+
+    存储库：
+
+        pymysql
+
+            pip3 install pymysql
+
+        pymongo
+
+            pip3 install pymongo
+
+        redis
+
+            pip3 install redis
+
+        flask(代理IP的库)
+
+            pip3 install flask
+
+        django
+
+            pip3 install django
+
+        jupyter(强大的记事本)
+
+            pip3 install jupyter
+
+            jupyter notebook（启动服务）
+
+    框架：
+
+        PySpider
+
+            pip3 install PySpider
+
+        scrapy
+
+            1. wheel
+
+                pip install wheel
+
+            2. lxml
+
+                http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml
+
+            3. PyOpenssl
+
+                https://pypi.python.org/pypi/pyOpenSSL#downloads
+
+            4. Twisted
+
+                http://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
+
+                链接：https://pan.baidu.com/s/1oAh2Dse 密码：okk0
+
+            5. Pywin32
+
+                https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/
+
+                https://sourceforge.net/projects/pywin32/files/pywin32/Build%20221/pywin32-221.win-amd64-py3.6.exe/download
+
+                软件和出现问题修复脚本，
+
+                链接：https://pan.baidu.com/s/1mj2VjxI 密码：ls54
+
+            6. Scrapy
+
+                pip3 install scrapy
+
+ 
+
+MongoDB 的安装：
+
+
+
+   
+
+启动服务：
+
+    D:\Program Files\MongoDB\Server\3.6\bin>"D:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --dbpath ../data/db
+
+
+
+配置可视化服务：
+
+    建立日志文件在c盘创建C:\data\db文件夹和C:\data\logs\logs.txt文件
+
+    D:\Program Files\MongoDB\Server\3.6\bin>mongod --bind_ip 0.0.0.0 --logpath C:\data\logs\logs.txt  --logappend --dbpath C:\data\db --port 27017 --serviceName "mongodb" --serviceDisplayName "mongodb" --install
+
+ 
+
+
+
+图形化管理页面软件
+
+    https://download.robomongo.org/1.2.1/windows/robo3t-1.2.1-windows-x86_64-3e50a65.exe
